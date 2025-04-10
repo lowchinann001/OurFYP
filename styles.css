@@ -1,0 +1,88 @@
+body {
+	background-color: white;
+	color: black;
+}
+.banner-img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.dvc {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px; /* Adds space under the banner */
+}
+
+.dvc iframe, .dvc video {
+	width: 100%; /* Adjusts the width of the video */
+	height: auto; /* Ensures the video maintains its aspect ratio */
+	border-radius: 10px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+	position: absolute;
+	top: 20px;
+	right: 100px;
+}
+nav ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+	display: flex;  /* This aligns the items in a row */
+}
+nav li{
+	margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+    color: white;
+	text-align: right;
+	font-weight: bold;
+	margin-top: 5px; 
+}
+
+nav a:hover {
+    text-decoration: underline;  /* Adds underline on hover */
+}
+
+nav a img {
+	width: 20px;
+	height: auto;
+	vertical-align: sub;
+	margin-right: 8px;
+}
+
+.demoVideo {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.demoVideo iframe {
+	width: 500px;
+	transition: transform 0.3s ease;
+	border-radius: 10px;
+}
+.demoVideo iframe:hover {
+	transform: scale(1.2);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+	z-index: 10;
+}
+
+.OVUM {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 36px;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+.UMD .embed-wrapper {
+	overflow-x: auto;
+	text-align: center;
+}
