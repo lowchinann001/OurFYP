@@ -57,6 +57,14 @@ nav a img {
 	margin-right: 8px;
 }
 
+body.UM nav a {
+    color: black;  /* Change the "Home" link text color to black */
+}
+
+body.DV nav a {
+    color: black;  /* Change the "Home" link text color to black */
+}
+
 .demoVideo {
 	display: flex;
 	justify-content: center;
